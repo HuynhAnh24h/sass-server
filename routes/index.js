@@ -1,4 +1,4 @@
-const userRoutes = require("./UserRouter")
+const authRoutes = require("./AuthRouter")
 module.exports = (app) =>{
-    app.use("/api/user/",userRoutes)
+    app.use("/api/auth/",authRoutes)
 }
